@@ -217,7 +217,6 @@ public class PasswordManager implements ActionListener {
         String encryptedText = encrypt(simplePasswd, secretKey);
         
 
-                                // byte[] salt = passwordEncryption.getSalt();
                                 String encPass = encryptedText;
 
                                 //txtArea adding in the panel
